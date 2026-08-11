@@ -1,0 +1,15 @@
+# Core RAG framework
+llama-index-core>=0.11,<0.13
+llama-index-readers-file
+llama-index-embeddings-huggingface
+llama-index-llms-openai
+llama-index-vector-stores-chroma
+
+# Vector store
+chromadb
+
+# UI
+streamlit
+
+# Environment / secrets
+python-dotenv

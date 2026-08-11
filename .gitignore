@@ -1,0 +1,21 @@
+# --- Secrets: NEVER commit your real API key ---
+.env
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# --- Persisted vector store (rebuilt via `python -m src.ingest`) ---
+storage/
+
+# --- Data: manuals may be copyrighted, so keep the PDFs out of the repo ---
+data/*
+!data/.gitkeep
+
+# --- OS / editor cruft ---
+.DS_Store
+.idea/
+.vscode/
