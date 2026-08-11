@@ -1,10 +1,10 @@
-# 🔧 Wartungsassistent (RAG)
+# Wartungsassistent (RAG)
 
 Ein KI-Assistent, der Fragen zu technischen Handbüchern und Wartungsdokumenten
 beantwortet – und dabei **jede Antwort mit der Quelle belegt** (Dokument + Seite).
 Umgesetzt als Retrieval-Augmented-Generation-Pipeline (RAG) mit semantischer Suche.
 
-> Motivation: In Wartung und Inspektion steckt Wissen verstreut über hunderte
+> Gedanke: In Wartung und Inspektion steckt Wissen verstreut über hunderte
 > Seiten Dokumentation. Dieser Assistent macht es in Sekunden durchsuchbar und
 > beantwortet Fragen in natürlicher Sprache – mit nachvollziehbaren Quellen statt
 > erfundener Antworten.
